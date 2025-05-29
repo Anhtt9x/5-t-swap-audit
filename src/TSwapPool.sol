@@ -280,6 +280,7 @@ contract TSwapPool is ERC20 {
         return numerator / denominator;
     }
 
+
     function getInputAmountBasedOnOutput(
         uint256 outputAmount,
         uint256 inputReserves,
